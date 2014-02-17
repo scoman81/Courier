@@ -1,0 +1,43 @@
+
+api/login
+-----------
+POST
+avname=
+password=
+
+returns token
+
+
+api/logout
+----------------
+POST - removes the user's token
+
+
+
+api/contacts
+----------------
+
+GET returns list of contacts
+  page
+  count
+
+POST adds a new contact
+
+PUT/100 -  updates a contact with any fields supplied
+
+DELETE/100 - deletes a contact
+
+
+
+api/messages
+---------------------
+
+POST - sends message
+  uuid OR name
+  message
+
+
+GET - lists message history
+  page
+  count
+
